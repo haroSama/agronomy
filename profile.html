@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Your head content here -->
+    <link rel="stylesheet" href="stylePro.css">
+   
+</head>
+<body>
+  <div class="logo-bar">
+    <div class="profile">
+      <img src="/Pictures/profile.png" alt="Profile Picture" id="profile-picture" onclick="RedirectProfile()" style="cursor: pointer;">
+   </div>
+    <div class="logo">
+      <img src="/Pictures/Rectangle 1.png" alt="Logo">
+    </div>
+    <div class="flags">
+      <img src="/Pictures/flagA.png" >
+      <img src="/Pictures/flagU.png" > 
+    </div>
+  </div>
+    <div class="content">
+      <h1>HELLO! Farmer [Your Name]</h1>
+      <form>
+        <ul>
+         
+            <label for="general_characteristics">Can you describe the general characteristics of your soil? (Texture, color, drainage, etc.)</label>
+            <input type="text" placeholder="Types..."id="general_characteristics" name="general_characteristics">
+          
+            <label for="soil_tests">Have you conducted soil tests to assess nutrient levels and pH? If so, what were the results?</label>
+            <input type="text" placeholder="Types..." id="soil_tests" name="soil_tests">
+          
+            <label for="crop_types">What types of crops do you grow on your land?</label>
+            <input type="text" placeholder="Types..." id="crop_types" name="crop_types">
+          
+            <label for="soil_fertility">How do you manage soil fertility and nutrient levels? Do you use organic or synthetic fertilizers?</label>
+            <input type="text" placeholder="Types..." id="soil_fertility" name="soil_fertility">
+          
+            <label for="irrigation_methods">What irrigation methods do you use? How do you determine when and how much to water?</label>
+            <input type="text" placeholder="Types..." id="irrigation_methods" name="irrigation_methods">
+          
+            <label for="soil_challenges">Are there any specific challenges you face regarding soil erosion or compaction?</label>
+            <input type="text"  placeholder="Types..." id="soil_challenges" name="soil_challenges">
+          
+            <label for="other_challenges">Are there any other specific challenges you face?</label>
+            <input type="text" placeholder="Types..." id="other_challenges" name="other_challenges">
+          
+        </ul>
+      </form>
+         
+        <button class="gene" onclick="generateParagraph() ">GENERATE</button>
+    </div>
+   
+      
+   
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
